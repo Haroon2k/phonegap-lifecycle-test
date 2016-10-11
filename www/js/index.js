@@ -13,7 +13,7 @@ var launched_count = 0;
 		$("#paused").text("Application resumed: " + resumed_count);
 	}
 
-
+ 
     // device APIs are available
     //
     function onDeviceReady() {
