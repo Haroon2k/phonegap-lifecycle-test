@@ -16,7 +16,7 @@ window.alert localStorage.setItem( key2, value2 );
 window.alert localStorage.setItem( key3, value3 );        
 window.alert localStorage.setItem( key4, value4 ); 
 window.alert localStorage.setItem( key5, value5 );
-        window.localStorage.getItem(key);
+window.localStorage.getItem(key1);
     }
 
 	
