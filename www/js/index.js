@@ -11,7 +11,7 @@ var value5 ="silver";
 
 
     function onLoad() {
-window.alert (localStorage.setItem( key1, value1 ));
+window.alert ("localStorage.setItem( key1, value1 )");
 window.alert (localStorage.setItem( key2, value2 ));
 window.alert (localStorage.setItem( key3, value3 ));        
 window.alert (localStorage.setItem( key4, value4 )); 
