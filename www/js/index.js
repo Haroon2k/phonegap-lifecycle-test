@@ -8,14 +8,15 @@ var key4 ="bag";
 var value4 ="brown";
 var key5 ="watch";
 var value5 ="silver";
-var value = window.localStorage.getItem(key);
+
 
     function onLoad() {
-window.alert (localStorage.setItem( key1, value1 ));
-window.alert (localStorage.setItem( key2, value2 ));
-window.alert (localStorage.setItem( key3, value3 ));        
-window.alert (localStorage.setItem( key4, value4 )); 
-window.alert (localStorage.setItem( key5, value5 ));        
+window.alert localStorage.setItem( key1, value1 );
+window.alert localStorage.setItem( key2, value2 );
+window.alert localStorage.setItem( key3, value3 );        
+window.alert localStorage.setItem( key4, value4 ); 
+window.alert localStorage.setItem( key5, value5 );
+        window.localStorage.getItem(key);
     }
 
 	
