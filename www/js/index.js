@@ -1,13 +1,25 @@
-var paused_count =0;
-var resumed_count = 0;
-var launched_count = 0;
+var key1 ="pen";
+var value1 ="blue";
+var key2 ="wallet";
+var value2 ="black";
+var key3 ="phone";
+var value3="grey";
+var key4 ="bag";
+var value4 ="brown";
+var key5 ="watch";
+var value5 ="silver";
+
 
     function onLoad() {
-        document.addEventListener("deviceready", onDeviceReady, false);
-		console.log("device ready");
+window.alert (localStorage.setItem( key1, value1 ));
+window.alert (localStorage.setItem( key2, value2 ));
+window.alert (localStorage.setItem( key3, value3 ));        
+window.alert (localStorage.setItem( key4, value4 )); 
+window.alert (localStorage.setItem( key5, value5 ));        
     }
+
 	
-	function updateDisplay() {
+	/*function updateDisplay() {
 		$("#launched").text("Application launched: " + launched_count);
 		$("#resumed").text("Application paused: " + paused_count);
 		$("#paused").text("Application resumed: " + resumed_count);
